@@ -215,7 +215,7 @@ fun NewsCard(new: New){
 @Composable
 fun World() {
     Text(
-        text = "Alrededor del mundo", // ojo con la ortografía ; )
+        text = "Alrededor del mundo",
         fontSize = 23.sp,
         color = Color.Black,
         fontWeight = FontWeight.Bold,
@@ -226,7 +226,7 @@ fun World() {
         columns = GridCells.Fixed(2),
         modifier = Modifier
             .fillMaxWidth()
-            .height(520.dp), // o .weight(1f) si vas a repartir con weights
+            .height(520.dp),
         contentPadding = PaddingValues(8.dp),
         horizontalArrangement = Arrangement.spacedBy(12.dp),
         verticalArrangement = Arrangement.spacedBy(12.dp)
